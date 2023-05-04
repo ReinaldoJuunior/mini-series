@@ -18,19 +18,22 @@ import {
       setOpen(!open)
     }
     return(
-      <div>
       <Navbar color='light' light expand='md'>
-        <NavbarBrand tag={Link} to='/'>Minhas Séries</NavbarBrand>
-        <NavbarToggler onClick={toggle}/>
-        <Collapse isOpen={open} navbar>
-          <Nav className='ms-auto' navbar>
-            <NavItem>
-              <NavLink tag={Link} to='/generos'>Gêneros</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+        <Navbar className="container">
+          <NavbarBrand tag={Link} to='/'>Minhas Séries</NavbarBrand>
+          <NavbarToggler onClick={toggle}/>
+          <Collapse isOpen={open} navbar>
+            <Nav className='ms-auto' navbar>
+              <NavItem>
+                <NavLink tag={Link} to='/series'>Séries</NavLink>
+              </NavItem>
+              <NavItem>
+                 <NavLink tag={Link} to='/generos'>Gêneros</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
       </Navbar>
-    </div>
     )
   }
 

@@ -21,12 +21,10 @@ const EditarGenero = ( ) => {
     }
     const save = () => {
         axios
-        .put('/api/genres/' + id, {
-            name
-        })
-        .then(res => {
-            setSuccess(true)
-        })
+            .put('/api/genres/' + id, { name })
+            .then(res => {
+                setSuccess(true)
+            })
     }
 
     if(success){

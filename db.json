@@ -1,0 +1,77 @@
+{
+  "series": {
+    "1": {
+      "name": "La casa de papel",
+      "status": "ASSISTIDO",
+      "genre_id": 3,
+      "comments": "Muito Ruim",
+      "poster": "//image.tmdb.org/t/p/original/kIjuNTP6qYKsw0uRKc7EoBqFYbU.jpg",
+      "background": "//image.tmdb.org/t/p/original/lcTuggU70y6pt6x13Rv1Ffjs93K.jpg"
+    },
+    "1682536311036": {
+      "name": "Two and a Half Man",
+      "status": "ASSISTIDO",
+      "genre_id": 2,
+      "comments": "troquei",
+      "poster": "//image.tmdb.org/t/p/original/dPCv0RaOj2pRxZcUDOoqXFe7Pqn.jpg",
+      "background": "//image.tmdb.org/t/p/original/5SQaNc5loVTrx1cDBnB72ewXLPp.jpg"
+    },
+    "1682552930910": {
+      "name": "Supernatural",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 1682544918023,
+      "comments": "TESTE",
+      "poster": "//image.tmdb.org/t/p/original/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg",
+      "background": "//image.tmdb.org/t/p/original/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg"
+    },
+    "1682552939802": {
+      "name": "Mr Robot",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 1682544918023,
+      "comments": "teste",
+      "poster": "//image.tmdb.org/t/p/original/1uS9tYSYXU5jshLx2WlnOLZrMgD.jpg",
+      "background": "//image.tmdb.org/t/p/original/1SEVAgbaah9wE5xoLt4qWPMBdpL.jpg"
+    },
+    "1682553029529": {
+      "name": "breaking bad",
+      "poster": "//image.tmdb.org/t/p/original/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg",
+      "background": "//image.tmdb.org/t/p/original/bsNm9z2TJfe0WO3RedPGWQ8mG1X.jpg"
+    },
+    "1682553459381": {
+      "name": "The Sopranos",
+      "status": "ASSISTIDO",
+      "genre_id": 3,
+      "comments": "Série de mafia",
+      "poster": "//image.tmdb.org/t/p/original/sLJWVqPsmzw6PQfq3SOYA4oQCVb.jpg",
+      "background": "//image.tmdb.org/t/p/original/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg"
+    },
+    "1682553490047": {
+      "name": "Boardwalk Empire",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 1682544918023,
+      "comments": "Série muito boa",
+      "poster": "//image.tmdb.org/t/p/original/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg",
+      "background": "//image.tmdb.org/t/p/original/gNYLylxp5EzopGtIb4XqIzbLtNJ.jpg"
+    },
+    "1682553565439": {
+      "name": "Seinfeld",
+      "status": "PARA_ASSISTIR",
+      "genre_id": 2,
+      "comments": "consegui",
+      "poster": "//image.tmdb.org/t/p/original/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+      "background": "//image.tmdb.org/t/p/original/wEP4CLuxGFrkECTyY50cVMGySLm.jpg"
+    }
+  },
+  "genres": {
+    "2": {
+      "name": "Comédia"
+    },
+    "3": {
+      "name": "Acão "
+    },
+    "1682544918023": {
+      "name": "Drama"
+    }
+  },
+  "count": 0
+}
