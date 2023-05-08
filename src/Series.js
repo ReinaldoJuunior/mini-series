@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
@@ -10,12 +10,11 @@ const Series = () => {
         axios
             .get('api/series')
             .then(res =>{
-                setData(res.data.data)
+               setData(res.data.data)
             })
         }, [])
 
     const renderizaLinha = record => {
-        console.log(record)
         return(
             <tr key={record.id}>
               <th scope='row'>{JSON.parse(record.id)}</th>
@@ -36,7 +35,9 @@ const Series = () => {
                 setData(filtro)
             })
     }
-
+    data.map((x) => {
+        const length = x.tags.length; // this works fine
+      })
     if(data.length === 0){
         return(
             <div className='container'>
