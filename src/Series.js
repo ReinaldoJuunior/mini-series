@@ -35,10 +35,7 @@ const Series = () => {
                 setData(filtro)
             })
     }
-    data.map((x) => {
-        const length = x.tags.length; // this works fine
-      })
-    if(data.length === 0){
+    if(data){
         return(
             <div className='container'>
                 <h1>Séries</h1>
